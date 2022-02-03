@@ -1,5 +1,5 @@
 'use strict'
-const coway = require('cowsay');
+const cowsay = require('cowsay');
 
-module.exports.speakspeak = str => coway.say({"text" : str});
+module.exports.speakspeak = str => cowsay.say({"text" : str});
 
